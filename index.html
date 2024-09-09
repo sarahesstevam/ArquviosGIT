@@ -4,7 +4,7 @@
     <title>Formulário de Exemplo</title>
     </head>
     <body>
-        <form action="funcoes.php" method="post">
+        <form id="meuFormulario">
 
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
@@ -15,7 +15,9 @@
             <br><br>
 
             <button type="submit">Enviar</button>
-
+            
         </form>
+        <div id="resultado"></div>
+        <script src="funcoes.js"></script>
     </body>
 </html>
